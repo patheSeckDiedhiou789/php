@@ -1,0 +1,16 @@
+<?php
+$Matricule=$_POST['matricule'];
+$Nom=$_POST['nom'];
+$Prenom=$_POST['prenom'];
+$Sexe=$_POST['sexe'];
+$Adresse=$_POST['adresse'];
+$Service=$_POST['service'];
+$categorie=$_POST['categorie'];
+$message=$_POST['message'];
+echo "Votre nom est:".$nom."<br> Votre email est:".$email."<br> Votre sujet est:".$sujet."<br> Votre adresse est:".$adresse."<br> Votre categorie est:".$categorie."<br> Votre message est:".$message;
+$argument1=5;
+$argument2=5;
+$resultat=$argument1*$argument2;
+echo "<br/>".$resultat;
+
+?>
